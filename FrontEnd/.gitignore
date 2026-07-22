@@ -67,3 +67,8 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# Add this to your .gitignore file
+*.apk
+*.aab
+android/app/build/
