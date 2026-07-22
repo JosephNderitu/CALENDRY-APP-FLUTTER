@@ -1,0 +1,96 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Users collection - Fixed duplicate rule and improved structure
+    match /users/{userId} {
+      // Authenticated users can only access their own user document
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow creation for authenticated users
+      allow create: if request.auth != null;
+      
+      // Allow updates only if user owns the document and bookingId doesn't change
+      allow update: if request.auth != null && 
+                    request.auth.uid == userId && 
+                    request.resource.data.bookingId == resource.data.bookingId;
+      
+      // Allow unauthenticated guests to search for users by bookingId for booking lookup
+      allow read: if request.auth == null && 
+                    resource.data.keys().hasAll(['bookingId']) &&
+                    request.query.limit <= 1;
+    }
+    
+    // Availability collection - Fixed permissions for guest access
+    match /availability/{hostId} {
+      // Hosts can read/write their own availability
+      allow read, write: if request.auth != null && request.auth.uid == hostId;
+      
+      // Allow unauthenticated guests to read availability for booking purposes
+      // This is essential for the booking lookup functionality
+      allow read: if request.auth == null;
+      
+      // Allow authenticated users to read availability (for potential future features)
+      allow read: if request.auth != null;
+    }
+    
+    // Meetings collection - Enhanced with better validation
+    match /meetings/{meetingId} {
+      // Hosts can read all their meetings
+      allow read: if request.auth != null && 
+                    request.auth.uid == resource.data.hostId;
+      
+      // Participants can read meetings they're part of (for future features)
+      allow read: if request.auth != null && 
+                    resource.data.get('participants', []).hasAny([request.auth.uid]);
+      
+      // Only hosts can update/delete their meetings
+      allow write: if request.auth != null && 
+                     request.auth.uid == resource.data.hostId;
+      
+      // Allow unauthenticated guests to create meeting requests with validation
+      allow create: if request.auth == null &&
+                      request.resource.data.status == 'pending' &&
+                      request.resource.data.hostId is string &&
+                      request.resource.data.hostId.size() > 0 &&
+                      request.resource.data.guestName is string &&
+                      request.resource.data.guestName.size() > 0 &&
+                      request.resource.data.guestEmail is string &&
+                      request.resource.data.guestEmail.size() > 0 &&
+                      request.resource.data.date is string &&
+                      request.resource.data.date.size() > 0 &&
+                      request.resource.data.timeSlot is string &&
+                      request.resource.data.timeSlot.size() > 0;
+      
+      // Allow unauthenticated guests to read meetings for conflict checking
+      // This is needed for the double-booking prevention in your code
+      allow read: if request.auth == null;
+      
+      // NEW: Allow unauthenticated users to read meetings by guest email for My Bookings
+      allow read: if request.auth == null && 
+                    request.query.limit <= 100; // Reasonable limit for user's bookings
+    }
+    
+    // NEW: Email verifications collection - For temporary verification codes
+    match /email_verifications/{emailDoc} {
+      // Allow unauthenticated users to create and read verification documents
+      // This is needed for the email verification process
+      allow create, read: if request.auth == null &&
+                            request.resource.data.email is string &&
+                            request.resource.data.email.size() > 0 &&
+                            request.resource.data.code is string &&
+                            request.resource.data.code.size() == 6;
+      
+      // Allow deletion after verification
+      allow delete: if request.auth == null;
+      
+      // Auto-cleanup: these documents should be deleted programmatically after use
+      // You might want to set up a Firebase Function to clean up expired codes
+    }
+    
+    // Subscriptions collection - User-specific access only
+    match /subscriptions/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

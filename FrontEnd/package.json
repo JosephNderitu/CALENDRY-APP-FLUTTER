@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.2",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.17"
+  }
+}

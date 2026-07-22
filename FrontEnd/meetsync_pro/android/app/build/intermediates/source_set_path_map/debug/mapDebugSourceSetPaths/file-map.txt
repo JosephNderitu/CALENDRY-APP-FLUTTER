@@ -1,0 +1,39 @@
+com.example.meetsync_pro.app-lifecycle-viewmodel-2.7.0-0 C:\Users\gikur\.gradle\caches\8.10.2\transforms\1b91be3af319ede480d7185430690ee1\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.meetsync_pro.app-jetified-tracing-1.2.0-1 C:\Users\gikur\.gradle\caches\8.10.2\transforms\285b6d6abe2dd4ba9515886e610a7341\transformed\jetified-tracing-1.2.0\res
+com.example.meetsync_pro.app-browser-1.8.0-2 C:\Users\gikur\.gradle\caches\8.10.2\transforms\308a2e77faa557d0bd706972416bde6a\transformed\browser-1.8.0\res
+com.example.meetsync_pro.app-jetified-play-services-auth-21.0.0-3 C:\Users\gikur\.gradle\caches\8.10.2\transforms\41fd65a6a815b5614b87b654f9cfd65e\transformed\jetified-play-services-auth-21.0.0\res
+com.example.meetsync_pro.app-jetified-core-1.0.0-4 C:\Users\gikur\.gradle\caches\8.10.2\transforms\47506b70b93177473c53f4d5d7e77c91\transformed\jetified-core-1.0.0\res
+com.example.meetsync_pro.app-jetified-window-1.2.0-5 C:\Users\gikur\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\res
+com.example.meetsync_pro.app-fragment-1.7.1-6 C:\Users\gikur\.gradle\caches\8.10.2\transforms\55520e4df2220e27f13f0bbb7467d11a\transformed\fragment-1.7.1\res
+com.example.meetsync_pro.app-jetified-profileinstaller-1.3.1-7 C:\Users\gikur\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\res
+com.example.meetsync_pro.app-jetified-core-ktx-1.13.1-8 C:\Users\gikur\.gradle\caches\8.10.2\transforms\6ec70d4eb0351866340efe37c2014fef\transformed\jetified-core-ktx-1.13.1\res
+com.example.meetsync_pro.app-jetified-firebase-common-20.4.3-9 C:\Users\gikur\.gradle\caches\8.10.2\transforms\7753fbb9eb20d93e79e4caf23f22802c\transformed\jetified-firebase-common-20.4.3\res
+com.example.meetsync_pro.app-jetified-play-services-base-18.1.0-10 C:\Users\gikur\.gradle\caches\8.10.2\transforms\80d381bf084c21e18706da6716588126\transformed\jetified-play-services-base-18.1.0\res
+com.example.meetsync_pro.app-core-1.13.1-11 C:\Users\gikur\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\res
+com.example.meetsync_pro.app-jetified-activity-1.9.3-12 C:\Users\gikur\.gradle\caches\8.10.2\transforms\a70ddd560199940b45ffc1a1c4db7f79\transformed\jetified-activity-1.9.3\res
+com.example.meetsync_pro.app-jetified-play-services-basement-18.3.0-13 C:\Users\gikur\.gradle\caches\8.10.2\transforms\abeed4f47a72eff8f5b4e9bf7f2f3c91\transformed\jetified-play-services-basement-18.3.0\res
+com.example.meetsync_pro.app-jetified-savedstate-1.2.1-14 C:\Users\gikur\.gradle\caches\8.10.2\transforms\b3d51a44ab6b56289d4858158a1ad6dd\transformed\jetified-savedstate-1.2.1\res
+com.example.meetsync_pro.app-lifecycle-runtime-2.7.0-15 C:\Users\gikur\.gradle\caches\8.10.2\transforms\c092edbccc16347970ed4f22e8da111a\transformed\lifecycle-runtime-2.7.0\res
+com.example.meetsync_pro.app-jetified-window-java-1.2.0-16 C:\Users\gikur\.gradle\caches\8.10.2\transforms\c1f85211ae6978d0218d51595a7f7e62\transformed\jetified-window-java-1.2.0\res
+com.example.meetsync_pro.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-17 C:\Users\gikur\.gradle\caches\8.10.2\transforms\c7156a54e8f0502a1f8f57797d8b3e6e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.meetsync_pro.app-jetified-startup-runtime-1.1.1-18 C:\Users\gikur\.gradle\caches\8.10.2\transforms\e0d9d3675465ff69d847e2f781f20c61\transformed\jetified-startup-runtime-1.1.1\res
+com.example.meetsync_pro.app-lifecycle-livedata-core-2.7.0-19 C:\Users\gikur\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.meetsync_pro.app-jetified-lifecycle-process-2.7.0-20 C:\Users\gikur\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.meetsync_pro.app-jetified-annotation-experimental-1.4.0-21 C:\Users\gikur\.gradle\caches\8.10.2\transforms\f09a22cdd213028a38958888c7d16e20\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.meetsync_pro.app-core-runtime-2.2.0-22 C:\Users\gikur\.gradle\caches\8.10.2\transforms\ff849810dfe34a0ab790c402787c149e\transformed\core-runtime-2.2.0\res
+com.example.meetsync_pro.app-debug-23 C:\Users\gikur\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-4.17.5\android\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.meetsync_pro.app-debug-24 C:\Users\gikur\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-4.20.0\android\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.meetsync_pro.app-debug-25 C:\Users\gikur\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-2.32.0\android\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.meetsync_pro.app-debug-26 C:\Users\gikur\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_storage-11.7.7\android\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.meetsync_pro.app-debug-27 C:\Users\gikur\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.28\android\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.meetsync_pro.app-debug-28 C:\Users\gikur\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_android-6.2.1\android\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.meetsync_pro.app-debug-29 C:\Users\gikur\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+23\android\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.meetsync_pro.app-debug-30 C:\Users\gikur\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.16\android\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.meetsync_pro.app-pngs-31 C:\projects\Calendly App\FrontEnd\meetsync_pro\android\app\build\generated\res\pngs\debug
+com.example.meetsync_pro.app-res-32 C:\projects\Calendly App\FrontEnd\meetsync_pro\android\app\build\generated\res\processDebugGoogleServices
+com.example.meetsync_pro.app-resValues-33 C:\projects\Calendly App\FrontEnd\meetsync_pro\android\app\build\generated\res\resValues\debug
+com.example.meetsync_pro.app-packageDebugResources-34 C:\projects\Calendly App\FrontEnd\meetsync_pro\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.meetsync_pro.app-packageDebugResources-35 C:\projects\Calendly App\FrontEnd\meetsync_pro\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.meetsync_pro.app-debug-36 C:\projects\Calendly App\FrontEnd\meetsync_pro\android\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.meetsync_pro.app-debug-37 C:\projects\Calendly App\FrontEnd\meetsync_pro\android\app\src\debug\res
+com.example.meetsync_pro.app-main-38 C:\projects\Calendly App\FrontEnd\meetsync_pro\android\app\src\main\res

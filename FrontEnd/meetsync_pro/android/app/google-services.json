@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869886843088",
+    "project_id": "meetsyncpro-3be81",
+    "storage_bucket": "meetsyncpro-3be81.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869886843088:android:11ef833d9af9ea5dd2e6d5",
+        "android_client_info": {
+          "package_name": "com.example.meetsyncpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869886843088-0au7oht3r89179srr8s8e082if9oepto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmbZhhlbsVkYlKJVnKfPJtV4m2VuwArHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869886843088-0au7oht3r89179srr8s8e082if9oepto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
